@@ -1,0 +1,10 @@
+.signInForm::before {
+    background-image: url("../../../images/signin-illustration.png")
+}
+.formArabic:lang(ar) {
+    text-align: right;
+}
+.inputArabic:lang(ar) {
+    text-align: right;
+    padding-right: 35px;
+}
