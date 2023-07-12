@@ -1,0 +1,11 @@
+/* Localization Arabic CSS*/
+.navArabic:lang(ar) {
+    direction: rtl;
+}
+.btnSignIn:lang(ar) {
+    margin-right: 10px;
+}
+
+.navMenuHeaderArabic:lang(ar) {
+    flex-direction: row-reverse;
+}
