@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+html {
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+}
+body {
+  font-family: "Cairo", sans-serif;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none !important;
+}
+.form-arabic {
+  font-family: "Cairo", sans-serif;
+}
+.text-arabic {
+  font-family: "Cairo", sans-serif;
+}
+/* Invoice Print */
+@media print {
+  .btn-print,
+  .header {
+    visibility: hidden;
+  }
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: #f7f7fc;
+}
+::-webkit-scrollbar-thumb {
+  background: #3498db;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+
+.card-img-top{
+  min-height: unset !important;
+  height: 150px !important;
+  width: 225px !important;
+  border-radius: unset !important;
+  -webkit-border-radius: unset !important;
+  -moz-border-radius: unset !important;
+  -ms-border-radius: unset !important;
+  -o-border-radius: unset !important;
+}
+
+.carousel-item img{
+  height: 400px !important;
+  width:  100% !important;
+}
+.tox.tox-silver-sink.tox-tinymce-aux {
+  display: none;
+}
+.scale-img {
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+.scale-img:hover {
+  transform: scale(8);
+}
